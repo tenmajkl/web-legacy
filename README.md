@@ -1,24 +1,11 @@
-# me
+# Web
 
-## Project setup
-```
-npm install
-```
+Personal website writen in vue
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Installation
 
-### Compiles and minifies for production
+```sh
+$ git clone https://github.com/TENMAJKL/web
+$ npm i
+$ npm run serve
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
