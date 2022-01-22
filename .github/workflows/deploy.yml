@@ -13,10 +13,10 @@ jobs:
       - uses: actions/setup-node@v2
       - run: npm i
       - uses: oleksiyrudenko/gha-git-credentials@v2.1
-      with:
-        global: true
-        name: 'TENMAJKL'
-        email: 'tenmajkl@liskyjidlokod.fun'
-        actor: 'TENMAJKL'
-        token: '${{ secrets.GITHUB_TOKEN }}'
+         with:
+          global: true
+          name: 'TENMAJKL'
+          email: 'tenmajkl@liskyjidlokod.fun'
+          actor: 'TENMAJKL'
+          token: '${{ secrets.GITHUB_TOKEN }}'
       - run: npm run deploy
