@@ -37,6 +37,8 @@ export default {
                 setTimeout(() => this.loaded = true, 500)
                 clearInterval(interval)
             }, 100)
+            var el = this.$parent.$el
+            el.scrollTop = el.scrollHeight
         }, this.start)
     }
 }

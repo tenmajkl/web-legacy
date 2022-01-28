@@ -1,5 +1,5 @@
 <template>
-    <div class="h-screen p-2 text-xl w-half bg-primary text-secondary font-source-code-pro">
+    <div class="h-screen p-2 overflow-auto text-xl w-half bg-primary text-secondary font-source-code-pro">
         <div v-for="(command, index) in commands" v-bind:key="index">
             <promt v-bind:command_text="command[0]" v-bind:start=command[2]>
                 <component v-bind:is="command[1]"></component>
