@@ -3,6 +3,7 @@
         <span>Projects</span>
         <span>========</span>
         <span>- Lemon - Dead simple php framework</span>
+        <span>- Wal - Lisp inspired language for doing stuff</span>
         <span>- MineHub web - Web app for MineHub project</span>
         <span>- Quarks - Stack oriented esoteric language written in rust</span>
    </div>
